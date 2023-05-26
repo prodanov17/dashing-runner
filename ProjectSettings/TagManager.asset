@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Ladder
+  - Springboard
+  - Water
+  - Key
+  - Door
+  - Spikes
+  - Oneway
+  - MovingPlatform
+  - WhiteDoor
+  - RedDoor
+  - BlueDoor
+  - Checkpoint
+  - Heart
+  - Crystals
+  - Spike Trigger
+  - Room trigger
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - MovingPlatform
+  - Post Processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ignore Lights
+    uniqueID: 4271489507
+    locked: 0
+  - name: Self Lit
+    uniqueID: 2906626463
+    locked: 0

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &59468264125393521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59468264125393523}
+  - component: {fileID: 59468264125393520}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &59468264125393523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59468264125393521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.97199, y: -1.3664819, z: -11.734066}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &59468264125393520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59468264125393521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d031f3b26d2e3499c732cc00f22474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 0f2402dd48a76704685e8a12b225372a, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 5be5c234b0ab69d4fa06bfb8088f2ef6, type: 3}
+    volume: 0.4
+    pitch: 1.51
+    loop: 0
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: 4c68d0feaa736974e92e56a70a1b8886, type: 3}
+    volume: 0.4
+    pitch: 1.21
+    loop: 0
+    source: {fileID: 0}
+  - name: pickup
+    clip: {fileID: 8300000, guid: b99c0cb7eb9900b45bb2152c1fd03528, type: 3}
+    volume: 0.4
+    pitch: 1.21
+    loop: 0
+    source: {fileID: 0}
+  - name: door
+    clip: {fileID: 8300000, guid: 6d993e1f8f0a9ff4abbbdbcc3d8ec5ba, type: 3}
+    volume: 0.4
+    pitch: 1.21
+    loop: 0
+    source: {fileID: 0}
+  - name: key
+    clip: {fileID: 8300000, guid: 8e69cefa84b966042bbe44a97c03a33c, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: health
+    clip: {fileID: 8300000, guid: 315cf13269a58924ab48d3b2d4f75d07, type: 3}
+    volume: 0.4
+    pitch: 1.21
+    loop: 0
+    source: {fileID: 0}
+  - name: Land
+    clip: {fileID: 8300000, guid: c1587f669af569b47a38acf06fb55419, type: 3}
+    volume: 0.4
+    pitch: 1.21
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 482f98f75bee4fd42be177fb90b54194, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Drop
+    clip: {fileID: 8300000, guid: 48c5aa25f9623f5418f7075fce905c3d, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
